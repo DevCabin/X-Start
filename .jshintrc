@@ -1,0 +1,10 @@
+{
+  "undef": true,
+  "unused": true,
+  "browser": true
+}
+// http://jshint.com/docs/options/
+// undef: Warns when you use a variable that was not declared.
+// unused: Warns when defining a variable and never using it.
+// browser: Defines globals exposed by modern browsers, like
+// navigator and document.

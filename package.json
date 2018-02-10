@@ -25,6 +25,8 @@
     "es6-promise": "^4.2.4",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
-    "gulp-sass": "^3.1.0"
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8"
   }
 }

@@ -3,7 +3,7 @@ Theme Name: The X Starter Theme
 Theme URI: http://underscores.me/
 Author: George Featherstone
 Author URI: https://devcabin.com
-Description: Starter Theme Based on Underscore S with a gulp file for Sass
+Description: Starter Theme Based on Underscore S with a gulp file for Sass - with Woocommerce Support
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -53,8 +53,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Questrial');
 @import "typography/typography";
 
 /*--------------------------------------------------------------

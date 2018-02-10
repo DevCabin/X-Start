@@ -13,7 +13,7 @@ A starter theme called The X Starter Theme.
 
 == Description ==
 
-Starter Theme Based on Underscore S with a gulp file for Sass
+Starter Theme Based on Underscore S with a gulp file for Sass - with Woocommerce Support
 
 == Installation ==
 

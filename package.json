@@ -1,0 +1,30 @@
+{
+  "name": "x-start",
+  "version": "1.0.0",
+  "description": "Blank WP Theme with Gulp for Sass based on _S",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevCabin/X-Start.git"
+  },
+  "keywords": [
+    "WordPress",
+    "sass",
+    "gulp"
+  ],
+  "author": "George Featherstone",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DevCabin/X-Start/issues"
+  },
+  "homepage": "https://github.com/DevCabin/X-Start#readme",
+  "devDependencies": {
+    "es6-promise": "^4.2.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

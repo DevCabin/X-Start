@@ -1,22 +1,19 @@
 // We want to use cool es6 stuff
 require('es6-promise').polyfill();
 // Gotta Gulp it
-var gulp = require('gulp');
+var gulp          = require('gulp');
 // Freaking love SASS
 var sass          = require('gulp-sass');
 // Stupid broswer compatibility
 var autoprefixer  = require('gulp-autoprefixer');
 // Get useful error messages, not just blank fails on errors
-var plumber = require('gulp-plumber');
-// goes with the plumber
-// var gutil = require('gulp-util'); Depricated
-// https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+var plumber       = require('gulp-plumber');
 
 // start using that stuff
 gulp.task('sass', function() {
   // find the sass files to compile
   return gulp.src('./sass/**/*.scss')
-  // IF there's an error let's hear about it
+  // If there's an error let's hear about it
   .pipe(plumber({ errorHandler: onError }))
   // Get sassy
   .pipe(sass())
@@ -28,7 +25,6 @@ gulp.task('sass', function() {
 // Here's where we use the error handler
 var onError = function (err) {
   console.log('An error occurred: ' + err.message);
-  // gutil.beep(); turn the beep off from g-util
   this.emit('end');
 };
 // We don't want to run a command every time we change something,

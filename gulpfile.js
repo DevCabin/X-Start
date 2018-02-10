@@ -9,7 +9,8 @@ var autoprefixer  = require('gulp-autoprefixer');
 // Get useful error messages, not just blank fails on errors
 var plumber = require('gulp-plumber');
 // goes with the plumber
-var gutil = require('gulp-util');
+// var gutil = require('gulp-util'); Depricated
+// https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
 
 // start using that stuff
 gulp.task('sass', function() {
@@ -26,8 +27,8 @@ gulp.task('sass', function() {
 });
 // Here's where we use the error handler
 var onError = function (err) {
-  console.log('An error occurred:', gutil.colors.magenta(err.message));
-  gutil.beep();
+  console.log('An error occurred: ' + err.message);
+  // gutil.beep(); turn the beep off from g-util
   this.emit('end');
 };
 // We don't want to run a command every time we change something,

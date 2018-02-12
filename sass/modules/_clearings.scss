@@ -10,7 +10,9 @@
 .site-content:after,
 .site-footer:before,
 .site-footer:after {
-	@include clearfix;
+		content: "";
+		display: none;
+		// table-layout: fixed;
 }
 
 .clear:after,

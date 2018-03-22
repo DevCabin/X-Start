@@ -36,7 +36,7 @@ Solid head start! I suggest you use this as the Underscore S doc indicate, whcih
 as a theme all it's own. 
 
 So say you're building for a client "acme co" and you don't really want the theme to be called X Starter Theme which
-is understandable, you can do a couple of things. QUick and easiest is to just go into style.css and 
+is understandable, you can do a couple of things. Quick and easiest is to just go into style.css and 
 change "Theme Name: The X Starter Theme" as you see fit, for example "Theme Name: Acme Co Theme ". Quick and effective.
 
 You should be able to get rolling from here. Have fun, and ask questions. Stack overflow is your friend. 

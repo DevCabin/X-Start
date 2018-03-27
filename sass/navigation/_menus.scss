@@ -1,3 +1,9 @@
+/*
+// Set optional hamburger color here
+.hamburger-inner, .hamburger-inner::after, .hamburger-inner::before {
+	background-color: $color__link;
+}
+*/
 .main-navigation {
 	clear: both;
 	display: block;
@@ -77,6 +83,11 @@
 }
 
 @media screen and (min-width: 37.5em) {
+	/* Optonal burger support
+	.hamburger {
+	   display: none !important;
+	}
+	*/
 	.menu-toggle {
 		display: none;
 	}

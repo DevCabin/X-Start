@@ -59,8 +59,10 @@ to upload extra junk.
 The X Starter Theme includes support for Infinite Scroll in Jetpack.
 
 == Changelog ==
+
 = 1.5 - March 27 2018 =
 * Solid version based on real world use case
+
 = 1.0 - May 12 2015 =
 * Initial release
 
